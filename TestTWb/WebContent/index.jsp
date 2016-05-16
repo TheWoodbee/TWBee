@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p> Todays Date: <%=new java.util.Date() %> </p>
+<p> Test Todays Date: <%=new java.util.Date() %> </p>
 </body>
 </html>
