@@ -15,6 +15,7 @@ public class Driver {
 		ResultSet myRs = mystmt.executeQuery("select * from BP00 where userid is not null");
 				// process the result set
 		while (myRs.next()){
+			//print the result
 			System.out.println(myRs.getString("last_name") + "," + "userid" + "first_name");
 		}
 			}
